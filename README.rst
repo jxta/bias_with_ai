@@ -3,7 +3,7 @@ A Binder repo for SageMath computing environment
 
 This repository is a Binder repo based on `SageMath <http://sagemath.org>`_. To
 access a computing environment created by `Binder <http://mybinder.org>`_ using
-SageMath kernel, click on this badge
+SageMath kernel, click on this badge (for binder.cs.rcos.nii.ac.jp and mybinder.org)
 
 .. image:: https://mybinder.org/badge_logo.svg
  :target: https://binder.cs.rcos.nii.ac.jp/v2/gh/sagemath/sage-binder-env/master
