@@ -6,6 +6,7 @@ FROM ghcr.io/sagemath/sage-binder-env:10.6
 USER root
 RUN pip install --no-cache-dir jupyterhub
 
+
 # Create user with uid 1000
 ARG NB_USER=user
 ARG NB_UID=1000
