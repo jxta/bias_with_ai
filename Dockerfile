@@ -5,6 +5,7 @@ FROM ghcr.io/sagemath/sage-binder-env:10.6
 
 USER root
 RUN pip install --no-cache-dir jupyterhub
+RUN pip install --no-cache-dir pandas
 
 
 # Create user with uid 1000
