@@ -9,7 +9,7 @@ SageMath kernel, click on this badge (for binder.cs.rcos.nii.ac.jp and mybinder.
  :target: https://binder.cs.rcos.nii.ac.jp/v2/gh/jxta/bias_with_ai/master
 
 .. image:: https://mybinder.org/badge_logo.svg
- :target: https://mybinder.org/v2/gh/gh/sagemath/sage-binder-env/master 
+ :target: https://mybinder.org/v2/gh/sagemath/sage-binder-env/master 
 
 
 An example Binder repo for SageMath
