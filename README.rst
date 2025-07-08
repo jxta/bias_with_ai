@@ -6,11 +6,10 @@ access a computing environment created by `Binder <http://mybinder.org>`_ using
 SageMath kernel, click on this badge (for binder.cs.rcos.nii.ac.jp and mybinder.org)
 
 .. image:: https://mybinder.org/badge_logo.svg
- :target: https://binder.cs.rcos.nii.ac.jp/v2/gh/sagemath/sage-binder-env/master
+ :target: https://binder.cs.rcos.nii.ac.jp/v2/gh/jxta/bias_with_ai/master
 
 .. image:: https://mybinder.org/badge_logo.svg
- :target: https://mybinder.org/v2/gh/sagemath/sage-binder-env/master
-
+ :target: https://mybinder.org/v2/gh/gh/jxta/bias_with_ai/master
 
 An example Binder repo for SageMath
 -----------------------------------
