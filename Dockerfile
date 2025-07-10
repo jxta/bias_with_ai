@@ -27,8 +27,8 @@ USER ${NB_USER}
 RUN mkdir -p $(jupyter --data-dir)/kernels
 RUN ln -s /sage/venv/share/jupyter/kernels/sagemath $(jupyter --data-dir)/kernels
 
-# Install pandas
-RUN pip install  pandas
+# Install pandas in Sage environment
+RUN /sage/sage -pip install pandas numpy matplotlib seaborn
 
 # Make Sage accessible from anywhere
 ENV PATH="/sage:$PATH"
