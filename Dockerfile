@@ -5,7 +5,7 @@ FROM ghcr.io/sagemath/sage-binder-env:10.6
 
 USER root
 RUN pip install --no-cache-dir jupyterhub
-RUN pip install --no-cache-dir pandas
+
 
 
 # Create user with uid 1000
@@ -35,6 +35,7 @@ WORKDIR /home/${NB_USER}
 
 # Create the jupyter_lab_config.py file with a custom logging filter to
 # suppress the perpetual nodejs warning
+RUN pip install  pandas
 RUN mkdir -p /home/${NB_USER}/.jupyter
 RUN echo "\
 import logging\n\
