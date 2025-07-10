@@ -27,6 +27,9 @@ USER ${NB_USER}
 RUN mkdir -p $(jupyter --data-dir)/kernels
 RUN ln -s /sage/venv/share/jupyter/kernels/sagemath $(jupyter --data-dir)/kernels
 
+# Install pandas
+RUN pip install  pandas
+
 # Make Sage accessible from anywhere
 ENV PATH="/sage:$PATH"
 
@@ -35,7 +38,6 @@ WORKDIR /home/${NB_USER}
 
 # Create the jupyter_lab_config.py file with a custom logging filter to
 # suppress the perpetual nodejs warning
-RUN pip install  pandas
 RUN mkdir -p /home/${NB_USER}/.jupyter
 RUN echo "\
 import logging\n\
